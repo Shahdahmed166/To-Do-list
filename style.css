@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #976c6c;
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: rgb(92, 61, 61);
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    box-shadow: 0px 8px 8px 0px black;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(248, 190, 190);
+}
+#content{
+    position: relative;
+    padding: 30px 20px;
+}
+#content input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #eee2e2;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    border: 2px solid #9e8486;
+    background-color: #976c6c;
+}
+
+#content input:focus{
+    outline: none;
+    border-color: #caa3a3;
+}
+#content button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #aa6565;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+#lists{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #927575;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ecdbdb;
+    cursor: pointer;
+    background-color: #6b4a4a;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #dd99aa;
+    color: #0f0d0d;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
